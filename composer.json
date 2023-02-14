@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "websupply/doctrine-wipe",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebSupply\\DoctrineWipe\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "WebSupply.DoctrineWipe"
+        }
+    }
+}
